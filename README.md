@@ -1,6 +1,5 @@
 # ExplorerVR
-Virtual Reality Project started on the 4th May 2017
-Unity and SteamVR
+Virtual Reality Project started on the 4th May 2017, using Unity and SteamVR
 
 # What is the aim of this project?
 Discover and explore different environments
