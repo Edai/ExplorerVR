@@ -51,6 +51,11 @@ public abstract class AbstractLevelManager : MonoBehaviour
             SoundManager.Instance.AddSound(this.backgroundSounds[i]);
         }
     }
+    public void ShowEnvironment()
+    {
+        for (int i = 0; i < objectsToActivate.Count; i++)
+            objectsToActivate[i].SetActive(true);
+    }
 
     public abstract IEnumerator BeginExperience();
 
@@ -59,6 +64,7 @@ public abstract class AbstractLevelManager : MonoBehaviour
         if (this.playing == false)
         {
             this.playing = true;
+            this.startPoint.active = false;
             this.StartCoroutine(this.BeginExperience());
         }
     }

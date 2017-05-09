@@ -40,8 +40,7 @@ public class BuildingSceneLevel : AbstractLevelManager
         liftObject.StartIndicator();
         yield return new WaitForSeconds(16f);
         FallingHandler.Boxes = new List<BoxCollider>(boxes);
-        for (int i = 0; i < objectsToActivate.Count; i++)
-            objectsToActivate[i].SetActive(true);
+        ShowEnvironment();
         this.liftObject.ElevatorSound(false);
         yield return new WaitForSeconds(1f);
         this.InitSound();

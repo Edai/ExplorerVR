@@ -23,6 +23,7 @@ public class JumpLevel : AbstractLevelManager {
 
     public override IEnumerator BeginExperience()
     {
+        ShowEnvironment();
         FallingHandler.Boxes = new List<BoxCollider>(boxes);
         FallingHandler.enabled = true;
         yield return null;
