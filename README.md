@@ -1,13 +1,12 @@
 # ExplorerVR
 Virtual Reality Project started on the 4th May 2017, using Unity and SteamVR
 
-# What is the aim of this project?
+# Goal
 Discover and explore different environments
 Fight against Acrophobia with this!
 
-
-# How does it work?
-Field in progress... 
+# ARCHITECTURE
+Field in progress... Laziness you may know.
 
 # Credits
 This project uses Free Unity Assets:  
