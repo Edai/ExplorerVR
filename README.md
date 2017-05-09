@@ -2,8 +2,7 @@
 Virtual Reality Project started on the 4th May 2017, using Unity and SteamVR
 
 # GOAL
-Discover and explore different environments
-Fight against Acrophobia with this!
+Discover and explore different environments and fight your Acrophobia with this!
 
 # ARCHITECTURE
 Field in progress... 
